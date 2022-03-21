@@ -1,0 +1,35 @@
+.nav {
+    background-color: green;
+}
+
+.nav__logo {
+    background-color: blue;
+}
+
+.nav__menu {
+    background-color: brown;
+}
+
+.header {
+    background-color: purple;
+}
+.header__heading {
+    background-color: aquamarine;
+}
+
+.header__text {
+    background-color: oldlace;
+}
+    
+
+.header__arrow {
+    background-color: bisque;
+}
+
+.header__hero {
+    background-color: azure;
+}
+
+.header__heroimg {
+    background-color: darksalmon;
+}
