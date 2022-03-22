@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Recipies</title>
 </head>
 <body>
-    <nav class="nav">
-        <img class="nav__logo" src="./images/Logo.svg" alt="Head. logo">
-        <ul class="nav__menu">
-            <li>Works</li>
-            <li>Services</li>
-            <li>Contacts</li>
-        </ul>
-    </nav>
     <header class="header">
-        <div>
-        <h1 class="header__heading">Recipes</h1>
-        <h2 class="header__text">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
-            Donec viverra eleifend lacus, vitae ullamcor.</h2>
-        <img class="header__arrow" src="./images/Icon.svg" alt="Arrow pointing down">
+        <div class="header__container">
+            <nav class="nav">
+                <div class="nav__container">
+                    <img class="nav__logo" src="./images/Logo.svg" alt="Head. logo">
+                    <ul class="nav__menu">
+                        <li>Works</li>
+                        <li>Services</li>
+                        <li>Contacts</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__text">
+                <h1 class="header__heading">Recipes</h1>
+                <h2 class="header__paragraph">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. 
+                    Donec viverra eleifend lacus, vitae ullamcor.</h2>
+            </div>
+            <div class="header__arrowbox">
+                <img class="header__arrow" src="./images/Icon.svg" alt="Arrow pointing down">
+            </div>
         </div>
         <div class="header__hero">
             <img class="header__heroimg" src="./images/Image.png" alt="Photo of a pumpkin soup">
