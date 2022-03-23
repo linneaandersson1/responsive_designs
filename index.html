@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/c99908aa44.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -17,10 +18,18 @@
             <nav class="nav">
                 <div class="nav__container">
                     <img class="nav__logo" src="./images/Logo.svg" alt="Head. logo">
+                    <div class="dropdown">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <div class="dropdown__content">
+                            <a class="nav__link" href="#">Works</a>
+                            <a class="nav__link" href="#">Services</a>
+                            <a class="nav__link" href="#">Contacts</a>
+                        </div>
+                    </div>
                     <ul class="nav__menu">
-                        <li>Works</li>
-                        <li>Services</li>
-                        <li>Contacts</li>
+                        <li><a class="nav__link" href="#">Works</a></li>
+                        <li><a class="nav__link" href="#">Services</a></li>
+                        <li><a class="nav__link" href="#">Contacts</a></li>
                     </ul>
                 </div>
             </nav>
