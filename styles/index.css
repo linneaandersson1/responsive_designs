@@ -117,8 +117,8 @@ body {
 }
 
 @media screen and (max-width: 1327px) {
-    .adaptive-bg {
-        background-image: url(/images/Image-m.png)
+    .header__heroimg {
+        background-image: url(/images/Image-m.png);
     }
 
     .header__container {
@@ -184,8 +184,10 @@ body {
 
 @media screen and (max-width: 710px) {
 
-    .adaptive-bg {
-        background-image: url(/images/Image-s.png) /*doesnt seem to work*/
+    .header__heroimg {
+        background-image: url(/images/Image-s.png); /*doesnt seem to work*/
+        max-width: 256px;
+        width: 100%px;
     }
 
     .header__heading {
@@ -197,12 +199,15 @@ body {
         margin-bottom: 15px;
     }
 
+    .header__container {
+        width: 256px;
+    }
+
     .header__paragraph {
         font-size: 12px;
         line-height: 18px;
         /* or 150% */
         text-align: center;
-        width: 284px;
     }
 
     .nav__menu {
